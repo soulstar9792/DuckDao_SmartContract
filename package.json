@@ -1,0 +1,35 @@
+{
+    "name": "duckdao-token",
+    "version": "1.0.0",
+    "description": "DuckDAO Token (DD) smart contract project",
+    "main": "scripts/deploy.js",
+    "scripts": {
+      "test": "npx hardhat test",
+      "deploy": "npx hardhat run scripts/deploy.js --network rinkeby",
+      "lint": "eslint .",
+      "coverage": "npx hardhat coverage"
+    },
+    "keywords": [
+      "ERC20",
+      "DuckDAO",
+      "blockchain",
+      "smart-contract"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "@openzeppelin/contracts": "^5.0.0",
+      "dotenv": "^16.0.0",
+      "ethers": "^5.7.0"
+    },
+    "devDependencies": {
+      "hardhat": "^2.17.0",
+      "chai": "^4.3.4",
+      "eslint": "^8.1.0",
+      "solhint": "^3.3.6",
+      "mocha": "^9.2.2",
+      "hardhat-gas-reporter": "^1.0.8",
+      "solidity-coverage": "^0.7.16"
+    }
+  }
+  
